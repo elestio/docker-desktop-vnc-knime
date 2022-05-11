@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=KNIME
+GenericName=KNIME
+Comment=KNIME
+Exec=/root/Desktop/knime/knime
+StartupNotify=true
+Terminal=false
+Icon=/root/Desktop/knime/icon.xpm
+Type=Application
+Categories=Tools;
