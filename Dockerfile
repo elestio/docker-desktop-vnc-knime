@@ -117,7 +117,7 @@ COPY rootfs /
 RUN ln -sf /usr/local/lib/web/frontend/static/websockify /usr/local/lib/web/frontend/static/novnc/utils/websockify && \
 	chmod +x /usr/local/lib/web/frontend/static/websockify/run
 
-RUN mkdir -p /root/Desktop && cd /root/Desktop && curl https://download.knime.org/analytics-platform/linux/knime_4.5.2.linux.gtk.x86_64.tar.gz > knime.tar.gz && tar -xzf knime.tar.gz && rm knime.tar.gz && mv knime_4.5.2 knime
+RUN mkdir -p /opt/ && cd /opt && curl https://download.knime.org/analytics-platform/linux/knime_4.5.2.linux.gtk.x86_64.tar.gz > knime.tar.gz && tar -xzf knime.tar.gz && rm knime.tar.gz && mv knime_4.5.2 knime
 
 EXPOSE 80
 WORKDIR /root
