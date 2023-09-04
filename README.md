@@ -1,8 +1,11 @@
 # docker-desktop-vnc-knime
 
-THIS REPO IS DEPRECATED, PLEASE CHECK HERE:
+*******************************
+
+*THIS REPO IS DEPRECATED, PLEASE CHECK HERE:*
 https://github.com/elestio-examples/knime
 
+*******************************
 
 docker-desktop-vnc-knime is a Docker image to provide web VNC interface to KNIME
 
